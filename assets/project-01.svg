@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="项目占位视觉一">
+  <rect width="960" height="720" fill="#efe7da"/>
+  <rect x="84" y="82" width="792" height="556" rx="28" fill="#fff8ec" stroke="#2b2b26" stroke-opacity=".16"/>
+  <rect x="136" y="132" width="304" height="56" rx="28" fill="#697467" opacity=".55"/>
+  <rect x="136" y="232" width="688" height="28" rx="14" fill="#34383a" opacity=".18"/>
+  <rect x="136" y="286" width="560" height="28" rx="14" fill="#34383a" opacity=".12"/>
+  <rect x="136" y="376" width="180" height="148" rx="20" fill="#d9d0bf"/>
+  <rect x="390" y="376" width="180" height="148" rx="20" fill="#9c6f5c" opacity=".46"/>
+  <rect x="644" y="376" width="180" height="148" rx="20" fill="#697467" opacity=".42"/>
+  <path d="M692 154L812 214L760 326L636 266Z" fill="#9c6f5c" opacity=".22"/>
+</svg>

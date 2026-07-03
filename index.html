@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="刘一飞 / freEak 的游戏 UI 设计作品集">
+    <title>刘一飞 / freEak - 作品集</title>
+    <link rel="stylesheet" href="styles/site.css">
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="brand-mark" href="index.html" aria-label="回到首页">
+        <span data-bind="site.name">刘一飞</span>
+        <span data-bind="site.handle">freEak</span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="works.html" data-nav="works">作品</a>
+        <a href="about.html" data-nav="about">档案</a>
+        <a href="contact.html" data-nav="contact">联系</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="hero-visual" src="assets/cover-visual.svg" alt="">
+        <div class="hero-shade"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-bind="site.availability">2026 求职作品集</p>
+          <h1>
+            <span data-bind="site.name">刘一飞</span>
+            <span class="handle" data-bind="site.handle">freEak</span>
+          </h1>
+          <p class="hero-role" data-bind="site.title">游戏 UI 设计 / 拼接实习生</p>
+          <p class="hero-line" data-bind="site.coverLead">把界面、节奏和体验感整理成可以被理解的作品。</p>
+          <div class="hero-actions" aria-label="主要入口">
+            <a class="button primary" href="works.html">进入作品目录</a>
+            <a class="button ghost" href="about.html">查看个人档案</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-index" aria-label="作品集入口">
+        <div class="section-label">Portfolio Index</div>
+        <div class="index-grid">
+          <a class="index-link" href="works.html">
+            <span>01</span>
+            <strong>作品目录</strong>
+            <em>游戏 UI / 界面拼接 / 项目占位</em>
+          </a>
+          <a class="index-link" href="about.html">
+            <span>02</span>
+            <strong>个人档案</strong>
+            <em>经历、教育、技能、简历下载</em>
+          </a>
+          <a class="index-link" href="contact.html">
+            <span>03</span>
+            <strong>联系合作</strong>
+            <em>邮箱、社交链接、留言表单</em>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="scripts/content.js"></script>
+    <script src="scripts/site.js"></script>
+  </body>
+</html>

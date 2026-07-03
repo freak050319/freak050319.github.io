@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="刘一飞 / freEak 的个人档案">
+    <title>个人档案 - 刘一飞 / freEak</title>
+    <link rel="stylesheet" href="styles/site.css">
+  </head>
+  <body data-page="about">
+    <header class="site-header">
+      <a class="brand-mark" href="index.html" aria-label="回到首页">
+        <span data-bind="site.name">刘一飞</span>
+        <span data-bind="site.handle">freEak</span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="works.html" data-nav="works">作品</a>
+        <a href="about.html" data-nav="about">档案</a>
+        <a href="contact.html" data-nav="contact">联系</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-heading reveal">
+        <p class="eyebrow">Profile</p>
+        <h1>学生，游戏行业实习中，正在往游戏制作人的方向靠近。</h1>
+        <p data-bind="profile.summary">目前关注游戏 UI 设计、界面拼接、信息层级和体验表达。</p>
+        <div class="heading-actions">
+          <a class="button primary" data-resume-link href="assets/resume-placeholder.pdf" download>下载简历</a>
+          <a class="button ghost" href="contact.html">联系我</a>
+        </div>
+      </section>
+
+      <section class="profile-layout">
+        <aside class="profile-aside">
+          <div>
+            <p class="section-label">Focus</p>
+            <div class="tag-list" id="focusList"></div>
+          </div>
+          <div>
+            <p class="section-label">Links</p>
+            <div class="link-stack" id="profileLinks"></div>
+          </div>
+        </aside>
+
+        <div class="profile-main">
+          <section class="content-block">
+            <h2>关于我</h2>
+            <div id="introText" class="prose"></div>
+          </section>
+          <section class="content-block">
+            <h2>经历</h2>
+            <div id="experienceList" class="timeline"></div>
+          </section>
+          <section class="content-block">
+            <h2>教育</h2>
+            <div id="educationList" class="timeline"></div>
+          </section>
+          <section class="content-block">
+            <h2>技能</h2>
+            <div id="skillsList" class="skill-columns"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="scripts/content.js"></script>
+    <script src="scripts/site.js"></script>
+  </body>
+</html>
