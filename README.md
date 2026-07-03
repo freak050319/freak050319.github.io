@@ -14,7 +14,7 @@
 
 替换简历时，把真实 PDF 放到 assets/ 里，然后修改 site.resumeUrl。例如：resumeUrl: "assets/resume.pdf"。
 
-## 访问统计
+## 访问统计  
 
 当前预留了 Plausible 的接入位置。部署后如果你有域名，可以把 scripts/content.js 里的 plausibleDomain: "" 改成你的域名，比如 plausibleDomain: "your-domain.com"。
 
