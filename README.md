@@ -6,7 +6,7 @@
 
 主要修改 scripts/content.js：
 
-- site.name 和 site.handle：你的名字与昵称。
+- site.name 和 site.handle：你的名字和昵称。
 - site.title：你的身份描述。
 - contact.methods：邮箱、GitHub、作品集 PDF、社交账号等。
 - profile：关于我、经历、教育、技能。
