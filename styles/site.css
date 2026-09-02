@@ -302,6 +302,16 @@ p {
   gap: 22px;
 }
 
+.empty-state {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: clamp(48px, 10vw, 96px) 24px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  background: rgba(255, 250, 240, 0.42);
+  text-align: center;
+}
+
 .project-card {
   display: flex;
   min-width: 0;
@@ -508,6 +518,11 @@ p {
   gap: 1px;
   border: 1px solid var(--line);
   background: var(--line);
+}
+
+.contact-layout.is-simple {
+  max-width: 720px;
+  grid-template-columns: 1fr;
 }
 
 .contact-methods,
